@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNG_01.Example01" />
+			<class name="testNG_01.Example10_param5" />
+			<class name="testNG_01.Example02" />
+			<class name="testNG_01.Example12_param7" />
+			<class name="testNG_01.Example08_param02" />
+			<class name="testNG_01.Exapme05" />
+			<class name="testNG_01.Sample01" />
+			<class name="testNG_01.Example06" />
+			<class name="testNG_01.Example07_Param" />
+			<class name="testNG_01.Example09_param4" />
+			<class name="testNG_01.Example08_param3" />
+			<class name="testNG_01.sample02" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

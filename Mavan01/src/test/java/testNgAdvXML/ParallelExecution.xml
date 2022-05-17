@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test suite" parallel="methods"
+	thread-count="3">
+	<test name="regression">
+		<classes>
+			<class name="testNgAdvXML.ParallelExecutionMethod" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SampleSuite">
+	<test name="testing">
+		<groups>
+			<run>
+				<exclude name="Smoke Test" />
+				<include name="Regression"/>
+	
+			</run>
+		</groups>
+		<classes>
+
+			<class name="testNgAdvXML.GroupExamples"/>
+			
+
+		
+		</classes>
+	</test>
+</suite>
