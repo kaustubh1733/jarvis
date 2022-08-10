@@ -43,6 +43,8 @@ public class Ex01 {
 
 		driver.close(); 
 
+		driver.manage().window().setSize(new Dimension(750,750));
+
 	}
 
 }	
